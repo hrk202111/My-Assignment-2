@@ -1,25 +1,5 @@
-.top-background{
-    padding-bottom: 50px;
-    background: #F0FFF0;
-}
-.top-element h1{
-    font-size: 50px;
-    font-weight: bold;
-    color: #000000;
-    line-height: 70px;
-}
-.top-element p{
-    color: #6C6B6B;
-    font-weight: 500;
-}
-.top-element h5{
-    color: #FD511A;
-}
-.any-schedule{
-    color: #21B573;
-}
-.learn{
-    padding: 20px 60px;
+.body{
+    font-family: 'Poppins', sans-serif;
 }
 .sign-in{
     background-image: linear-gradient(to bottom,#21B573  0%,#21B573 100%);
@@ -42,9 +22,131 @@
     width: 140px;
     height: 50px;
 }
-.books, .courses, .others, .blog{
-    font-weight: 900;
+.top-background{
+    padding-bottom: 50px;
+    background: #F0FFF0;
 }
-.logo-banner{
-    border: solid 2px orange;
+.top-bar, .books, .courses, .others, .blog{
+    color: #000000;
+    font-weight: 500;
+}
+
+.top-text{
+    padding: 20px 60px;
+}
+.any-schedule{
+    color: #21B573;
+}
+.top-element p{
+    color: #6C6B6B;
+    font-weight: normal;
+}
+.top-element h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+.top-element h5{
+    color: #FD511A;
+}
+.icon-card{
+    text-align: center;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    height: 270px;
+    width: 270px;
+    justify-content: center;
+    align-items: center;
+}
+.photo-card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.photo-card img{
+    border-radius: 10px;
+}
+
+.container{
+    margin-bottom: 100px;
+}
+
+.online-courses{
+   text-align: center;
+}
+.online-courses h1{
+    color: #413960;
+    font-size: 40px;
+    font-weight: 600;
+}
+.online-courses h5{
+    color: #413960;
+    font-weight: bold;
+}
+.online-courses p{
+    color: #585859;
+    font-weight: 500;
+}
+.online-courses small{
+    color: #585859;
+    font-weight: 500;
+}
+.buy-course{
+    background-image: linear-gradient(to bottom,#21B573 0%,#21B573 100%);
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 33px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.calendar-icon, .people-icon {
+    height: 24px;
+    width: 24px;
+}
+.testmonial{
+    text-align: center;
+}
+.testmonial img{
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    justify-content: center; 
+}
+.testmonial h1{
+    color: #000000;
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 600;
+}
+.testmonial p{
+    color: #000000;
+    font-weight: 500;
+    width: 583px;
+    height: 90px;
+}
+.last-box{
+    border: darkblue solid 2px;
+    background-color: #282531;
+    color:#FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+.last-box p{
+    width: 366px;
+    height: 60px;
+}
+.last-box li{
+    list-style: none;
+}
+.coursess{
+    font-size: 20px;
+    color: white;
+}
+.terms{
+    font-size: 20px;
+}
+.useful-link{
+    font-size: 19px;
+}
+.under-footer{
+    font-size: 10px;
 }

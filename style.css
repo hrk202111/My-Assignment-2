@@ -1,0 +1,50 @@
+.top-background{
+    padding-bottom: 50px;
+    background: #F0FFF0;
+}
+.top-element h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 70px;
+}
+.top-element p{
+    color: #6C6B6B;
+    font-weight: 500;
+}
+.top-element h5{
+    color: #FD511A;
+}
+.any-schedule{
+    color: #21B573;
+}
+.learn{
+    padding: 20px 60px;
+}
+.sign-in{
+    background-image: linear-gradient(to bottom,#21B573  0%,#21B573 100%);
+    border-radius: 33px;
+    width: 104px;
+    height: 43px;
+    font-weight: 500;
+    border: none;
+    color: white;
+}
+.get-started{
+    background-image: linear-gradient(to bottom,#21B573  0%,#21B573 100%);
+    color: #fff;
+    border: none;
+    border-radius: 33px;
+    padding: 9px 25px;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 140px;
+    height: 50px;
+}
+.books, .courses, .others, .blog{
+    font-weight: 900;
+}
+.logo-banner{
+    border: solid 2px orange;
+}
